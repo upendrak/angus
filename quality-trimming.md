@@ -141,7 +141,7 @@ Question:
 
 Links:
 
-* [FASTQ Format](http://en.wikipedia.org/wiki/FASTQ_format>)
+* [FASTQ Format](http://en.wikipedia.org/wiki/FASTQ_format)
 
 ### 2. FastQC
 
@@ -171,7 +171,7 @@ SRR1976948_1_fastqc.zip
 SRR1976948_2_fastqc.zip
 ```
 
-Inside each of the fatqc directories you will find reports from the fastqc. You can download these files using your Jupyter Notebook console, if you like;
+Inside each of the fatqc directories you will find reports from the fastqc. You can download these files using your R Studio, if you like;
 or you can look at these copies of them:
 
 * [SRR1976948_1_fastqc/fastqc_report.html](http://2017-ucsc-metagenomics.readthedocs.io/en/latest/_static/SRR1976948_1_fastqc/fastqc_report.html)
@@ -190,13 +190,13 @@ Links:
 There are several caveats about FastQC - the main one is that it only
 calculates certain statistics (like duplicated sequences) for subsets
 of the data (e.g. duplicate sequences are only analyzed for the first
-100,000 sequences in each file
+100,000 sequences in each file)
 
 
 ### 3. Trimmomatic
 
 Now we're going to do some trimming!  We'll be using
-[Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic>), which
+[Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic), which
 (as with fastqc) we've already installed via apt-get.
 
 The first thing we'll need are the adapters to trim off:
